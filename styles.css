@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    background-image: url('./assets/fireplace.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    flex-grow: 1;
+    color: #5983ef;
+    font-size: 4rem;
+}
+
+.wake-word {
+    font-size: 8rem;
+    font-style: italic;
+}
+
+.alexa-section {
+    padding-inline-start: 12rem;
+}
+
+.nav {
+    padding: 1.5rem 2rem;
+}
+
+.nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.nav > ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav > ul a:hover, .nav > ul a:focus {
+    text-decoration: underline;
+    outline: none;
+}
